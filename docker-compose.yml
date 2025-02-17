@@ -1,0 +1,11 @@
+services:
+  docqa:
+    build: .
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./models:/app/models
+      - ./uploads:/app/uploads
+      - ./2025-en.pdf:/app/uploads/2025-en.pdf
+    environment:
+      - PYTHONUNBUFFERED=1

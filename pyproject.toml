@@ -1,0 +1,16 @@
+[project]
+name = "dpkvslk"
+version = "1.0.0"
+description = "Dokumendi Põhine Küsimus-Vastus Süsteem Lokaalseks Kasutuseks"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "docarray>=0.40.0",
+    "faiss-cpu>=1.10.0",
+    "langchain-community>=0.3.17",
+    "langchain-huggingface>=0.1.2",
+    "llama-cpp-python>=0.3.7",
+    "pypdf>=5.3.0",
+    "python-fasthtml>=0.12.1",
+    "sentence-transformers>=3.4.1",
+]
